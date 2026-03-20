@@ -1,9 +1,9 @@
 **TC_001 – User Registration**
 
-Module: Registration
-Test Scenario: Verify user registration functionality
-Precondition: Pet Paradise application is installed
-Test Data: Valid username, password, email, etc.
+**Module:** Registration
+**Test Scenario:** Verify user registration functionality
+**Precondition:** Pet Paradise application is installed
+**Test Data:** Valid username, password, email, etc.
 
 **Steps:**
 
@@ -12,13 +12,13 @@ Test Data: Valid username, password, email, etc.
 - Enter valid user details
 - Click Register button
 
-Expected Result:
+**Expected Result:**
 User should be registered successfully and a confirmation message should be displayed.
 
 **TC_002 – Login with Valid Credentials**
 
-Module: Login
-Test Scenario: Verify login with valid credentials
+**Module:** Login
+**Test Scenario:** Verify login with valid credentials
 Precondition: User is registered
 Test Data: Valid username and password
 
