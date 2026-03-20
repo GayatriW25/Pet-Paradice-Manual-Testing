@@ -19,8 +19,8 @@ User should be registered successfully and a confirmation message should be disp
 
 **Module:** Login
 **Test Scenario:** Verify login with valid credentials
-Precondition: User is registered
-Test Data: Valid username and password
+**Precondition:** User is registered
+**Test Data:** Valid username and password
 
 **Steps:**
 
@@ -28,15 +28,15 @@ Test Data: Valid username and password
 - Enter valid username and password
 - Click Login button
 
-Expected Result:
+**Expected Result:**
 User should login successfully and the dashboard should open.
 
 **TC_003 – Login with Invalid Credentials**
 
-Module: Login
-Test Scenario: Verify login with invalid credentials
-Precondition: Pet Paradise application is installed
-Test Data: Invalid username or password
+**Module:** Login
+**Test Scenario:** Verify login with invalid credentials
+**Precondition:** Pet Paradise application is installed
+**Test Data:** Invalid username or password
 
 **Steps:**
 
@@ -44,30 +44,30 @@ Test Data: Invalid username or password
 - Enter invalid username/password
 - Click Login button
 
-Expected Result:
+**Expected Result:**
 Error message should be displayed indicating invalid credentials.
 
 **TC_004 – Pet List Display**
 
-Module: Pet Listing
-Test Scenario: Verify pet list display
-Precondition: User is logged in
-Test Data: N/A
+**Module:** Pet Listing
+**Test Scenario:** Verify pet list display
+**Precondition:** User is logged in
+**Test Data:** N/A
 
 **Steps:**
 
 - Login to the application
 - Click View Pets
 
-Expected Result:
+**Expected Result:**
 List of pets should be displayed correctly.
 
 **TC_005 – Add Pet to Cart**
 
-Module: Cart
-Test Scenario: Verify add pet to cart
-Precondition: User is logged in and pets are available
-Test Data: Pet ID to add
+**Module:** Cart
+**Test Scenario:** Verify add pet to cart
+**Precondition:** User is logged in and pets are available
+**Test Data:** Pet ID to add
 
 **Steps:**
 - Login to the application
@@ -76,15 +76,15 @@ Test Data: Pet ID to add
 
 Click Add to Cart button
 
-Expected Result:
+**Expected Result:**
 Selected pet should be added to the cart with correct details linked to the logged-in user.
 
 **TC_006 – Remove Pet from Cart**
 
-Module: Cart
-Test Scenario: Verify remove pet from cart
-Precondition: User has items in cart
-Test Data: Pet ID in cart
+**Module:** Cart
+**Test Scenario:** Verify remove pet from cart
+**Precondition:** User has items in cart
+**Test Data:** Pet ID in cart
 
 **Steps:**
 
@@ -92,15 +92,15 @@ Test Data: Pet ID in cart
 - Select the pet to remove
 - Click Remove button
 
-Expected Result:
+**Expected Result:**
 Selected pet should be removed from the cart and cart total updated accordingly.
 
 **TC_007 – Place Order**
 
-Module: Orders
-Test Scenario: Verify order placement
-Precondition: User has items in cart
-Test Data: Cart items
+**Module:** Orders
+**Test Scenario:** Verify order placement
+**Precondition:** User has items in cart
+**Test Data:** Cart items
 
 **Steps:**
 
@@ -108,19 +108,19 @@ Test Data: Cart items
 - Click Place Order button
 - Confirm the order
 
-Expected Result:
+**Expected Result:**
 Order should be placed successfully, and order details should be saved in the database linked to the logged-in user.
 
 **TC_008 – Logout**
 
-Module: Login/Logout
-Test Scenario: Verify logout functionality
-Precondition: User is logged in
-Test Data: N/A
+**Module:** Login/Logout
+**Test Scenario:** Verify logout functionality
+**Precondition:** User is logged in
+**Test Data:** N/A
 
 **Steps:**
 
 - Click Logout button
 
-Expected Result:
+**Expected Result:**
 User should be logged out successfully and redirected to the login page.
